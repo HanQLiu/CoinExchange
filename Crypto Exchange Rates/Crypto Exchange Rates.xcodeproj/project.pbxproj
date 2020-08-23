@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F28E8BEE24F2213F003BDA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E8BED24F2213F003BDA5A /* AppDelegate.swift */; };
+		F28E8BF024F2213F003BDA5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E8BEF24F2213F003BDA5A /* SceneDelegate.swift */; };
+		F28E8BF224F2213F003BDA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E8BF124F2213F003BDA5A /* ViewController.swift */; };
+		F28E8BF524F2213F003BDA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28E8BF324F2213F003BDA5A /* Main.storyboard */; };
+		F28E8BF724F22141003BDA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28E8BF624F22141003BDA5A /* Assets.xcassets */; };
+		F28E8BFA24F22141003BDA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28E8BF824F22141003BDA5A /* LaunchScreen.storyboard */; };
+		F28E8C0424F221AF003BDA5A /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E8C0324F221AF003BDA5A /* CoinData.swift */; };
+		F28E8C0624F2228C003BDA5A /* RateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28E8C0524F2228C003BDA5A /* RateManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F28E8BEA24F2213F003BDA5A /* Crypto Exchange Rates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Exchange Rates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28E8BED24F2213F003BDA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F28E8BEF24F2213F003BDA5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F28E8BF124F2213F003BDA5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F28E8BF424F2213F003BDA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F28E8BF624F22141003BDA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F28E8BF924F22141003BDA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F28E8BFB24F22141003BDA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28E8C0324F221AF003BDA5A /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		F28E8C0524F2228C003BDA5A /* RateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28E8BE724F2213F003BDA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F28E8BE124F2213F003BDA5A = {
+			isa = PBXGroup;
+			children = (
+				F28E8BEC24F2213F003BDA5A /* Crypto Exchange Rates */,
+				F28E8BEB24F2213F003BDA5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F28E8BEB24F2213F003BDA5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28E8BEA24F2213F003BDA5A /* Crypto Exchange Rates.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28E8BEC24F2213F003BDA5A /* Crypto Exchange Rates */ = {
+			isa = PBXGroup;
+			children = (
+				F28E8BED24F2213F003BDA5A /* AppDelegate.swift */,
+				F28E8BEF24F2213F003BDA5A /* SceneDelegate.swift */,
+				F28E8BF324F2213F003BDA5A /* Main.storyboard */,
+				F28E8C0124F2216D003BDA5A /* Controller */,
+				F28E8C0224F22193003BDA5A /* Model */,
+				F28E8BF624F22141003BDA5A /* Assets.xcassets */,
+				F28E8BF824F22141003BDA5A /* LaunchScreen.storyboard */,
+				F28E8BFB24F22141003BDA5A /* Info.plist */,
+			);
+			path = "Crypto Exchange Rates";
+			sourceTree = "<group>";
+		};
+		F28E8C0124F2216D003BDA5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F28E8BF124F2213F003BDA5A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F28E8C0224F22193003BDA5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F28E8C0324F221AF003BDA5A /* CoinData.swift */,
+				F28E8C0524F2228C003BDA5A /* RateManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28E8BE924F2213F003BDA5A /* Crypto Exchange Rates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28E8BFE24F22141003BDA5A /* Build configuration list for PBXNativeTarget "Crypto Exchange Rates" */;
+			buildPhases = (
+				F28E8BE624F2213F003BDA5A /* Sources */,
+				F28E8BE724F2213F003BDA5A /* Frameworks */,
+				F28E8BE824F2213F003BDA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crypto Exchange Rates";
+			productName = "Crypto Exchange Rates";
+			productReference = F28E8BEA24F2213F003BDA5A /* Crypto Exchange Rates.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28E8BE224F2213F003BDA5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Hanqing Liu";
+				TargetAttributes = {
+					F28E8BE924F2213F003BDA5A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = F28E8BE524F2213F003BDA5A /* Build configuration list for PBXProject "Crypto Exchange Rates" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F28E8BE124F2213F003BDA5A;
+			productRefGroup = F28E8BEB24F2213F003BDA5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28E8BE924F2213F003BDA5A /* Crypto Exchange Rates */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28E8BE824F2213F003BDA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28E8BFA24F22141003BDA5A /* LaunchScreen.storyboard in Resources */,
+				F28E8BF724F22141003BDA5A /* Assets.xcassets in Resources */,
+				F28E8BF524F2213F003BDA5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28E8BE624F2213F003BDA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28E8C0424F221AF003BDA5A /* CoinData.swift in Sources */,
+				F28E8BF224F2213F003BDA5A /* ViewController.swift in Sources */,
+				F28E8C0624F2228C003BDA5A /* RateManager.swift in Sources */,
+				F28E8BEE24F2213F003BDA5A /* AppDelegate.swift in Sources */,
+				F28E8BF024F2213F003BDA5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F28E8BF324F2213F003BDA5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28E8BF424F2213F003BDA5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F28E8BF824F22141003BDA5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28E8BF924F22141003BDA5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28E8BFC24F22141003BDA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F28E8BFD24F22141003BDA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28E8BFF24F22141003BDA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crypto Exchange Rates/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hanqingliu.Crypto-Exchange-Rates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F28E8C0024F22141003BDA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crypto Exchange Rates/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hanqingliu.Crypto-Exchange-Rates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28E8BE524F2213F003BDA5A /* Build configuration list for PBXProject "Crypto Exchange Rates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28E8BFC24F22141003BDA5A /* Debug */,
+				F28E8BFD24F22141003BDA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28E8BFE24F22141003BDA5A /* Build configuration list for PBXNativeTarget "Crypto Exchange Rates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28E8BFF24F22141003BDA5A /* Debug */,
+				F28E8C0024F22141003BDA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28E8BE224F2213F003BDA5A /* Project object */;
+}
